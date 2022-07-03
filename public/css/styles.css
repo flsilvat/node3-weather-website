@@ -1,0 +1,23 @@
+* {
+    font-family: arial
+}
+
+h1 {
+    color: blue;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    border-radius: 1rem;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+    border-radius: 1rem;
+    margin-left: 8px;
+}
