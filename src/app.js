@@ -8,7 +8,7 @@ console.log(__dirname)
 console.log(path.join(__dirname, '../public'))
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 
 // npm i hbs https://www.npmjs.com/package/hbs
 app.set('view engine', 'hbs')
